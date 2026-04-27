@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-  <!-- Update the ability description -->
+  <!-- Update the ability description
   <Operation Class="PatchOperationReplace">
     <xpath>/Defs/AbilityDef[defName="WVC_Archiver_Integrator"]/description</xpath>
     <value>
@@ -23,6 +23,6 @@
     <value>
       <li>Can only target a &lt;color=#8a8ae6&gt;downed&lt;/color&gt; pawn.</li>
     </value>
-  </Operation>
+  </Operation> -->
 
 </Patch>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <GeneDef ParentName="WVC_XenotypesAndGenes_GeneMorpher_Triggers">
+	<defName>Yoesph_Blacklight_Disguise</defName>
+	<label>ability trigger</label>
+	<description>Carriers of this gene can morph at will.</description>
+	<geneClass>BlacklightPatch.BlacklightAbilities.Gene_AbilityDisguise</geneClass>
+	<iconPath>WVC/UI/Genes/Gene_MorpherSubGene_Ability</iconPath>
+	<displayOrderInCategory>-95</displayOrderInCategory>
+	<biostatArc>3</biostatArc>
+	<biostatMet>-6</biostatMet>
+	<customEffectDescriptions>
+		<li>Allows morph in &lt;color=#8a8ae6&gt;any time&lt;/color&gt;.</li>
+	</customEffectDescriptions>
+  </GeneDef>
+
+</Defs>

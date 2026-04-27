@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Gene -->
+    <GeneDef ParentName="WVC_XenotypesAndGenes_GeneArchiver_SubGenes">
+        <defName>Yoesph_Blacklight_Consume</defName>
+        <label>consume</label>
+        <description>Carriers of this gene can "consume" other pawns.</description>
+        <iconPath>WVC/UI/Genes/Gene_Devourer</iconPath>
+        <biostatCpx>1</biostatCpx>
+        <biostatArc>2</biostatArc>
+        <biostatMet>0</biostatMet>
+        <displayOrderInCategory>0</displayOrderInCategory>
+        <abilities>
+        <li>Yoesph_Blacklight_Consume</li>
+        </abilities>
+        <descriptionHyperlinks>
+        <AbilityDef>Yoesph_Blacklight_Consume</AbilityDef>
+        </descriptionHyperlinks>
+        <customEffectDescriptions>
+            <li>Allows to put alive pawns into the &lt;color=#8a8ae6&gt;archiver&lt;/color&gt;, ignoring the &lt;color=#8a8ae6&gt;form&lt;/color&gt; limit.</li>
+            <li>If used on a dead body a portion of the pawn's genes will be consumed.</li>
+        </customEffectDescriptions>
+        <!-- <prerequisites>
+            <li>WVC_Archiver</li>
+            <li>WVC_Chimera</li>
+        </prerequisites> -->
+    </GeneDef>
+
+    <!-- Ability -->
+
+    <AbilityDef ParentName="WVC_XenotypesAndGenes_AbilityTouchReimplanter_Base">
+        <defName>Yoesph_Blacklight_Consume</defName>
+        <label>consume</label>
+        <description>Consume the target.</description>
+        <iconPath>WVC/UI/Genes/Gene_Devourer</iconPath>
+        <showWhenDrafted>true</showWhenDrafted>
+        <cooldownTicksRange>0</cooldownTicksRange>
+        <hostile>true</hostile>
+        <casterMustBeCapableOfViolence>true</casterMustBeCapableOfViolence>
+        <!-- <targetParams>
+		        <canTargetCorpses>true</canTargetCorpses>
+	    </targetParams> -->
+        <verbProperties>
+            <violent>true</violent>
+            <targetParams>
+		        <canTargetCorpses>true</canTargetCorpses>
+	        </targetParams>
+        </verbProperties>
+        <comps>
+        <li Class="WVC_XenotypesAndGenes.CompProperties_AbilityChimera">
+            <compClass>BlacklightPatch.BlacklightAbilities.CompAbilityEffect_Consume</compClass>
+        </li>
+        <li Class="CompProperties_AbilityFleckOnTarget">
+            <fleckDef>BloodSplash</fleckDef>
+        </li>
+        <li Class="CompProperties_AbilityRequiresCapacity">
+            <capacity>Manipulation</capacity>
+        </li>
+        </comps>
+    </AbilityDef>
+</Defs>

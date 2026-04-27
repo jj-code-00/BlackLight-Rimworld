@@ -1,0 +1,7 @@
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\BlacklightPatch\Assemblies\BlacklightPatch.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\BlacklightPatch\Assemblies\BlacklightPatch.pdb
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\BlacklightPatch\Source\BlacklightPatch\obj\Debug\BlacklightPatch.csproj.AssemblyReference.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\BlacklightPatch\Source\BlacklightPatch\obj\Debug\BlacklightPatch.csproj.CoreCompileInputs.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\BlacklightPatch\Source\BlacklightPatch\obj\Debug\BlacklightPatch.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\BlacklightPatch\Source\BlacklightPatch\obj\Debug\BlacklightPatch.pdb
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\BlacklightPatch\Source\BlacklightPatch\obj\Debug\Blacklig.944513A8.Up2Date

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <XenotypeDef>
+	<defName>Yoesph_Blacklight</defName>
+	<label>blacklight</label>
+    <description>A freak accident has created a Viral being with incredible Potential. Blacklight can consume and accumulate genetic material to evolve.</description>
+	<descriptionShort>Evolving viral being.</descriptionShort>
+	<inheritable>true</inheritable>
+    <iconPath>WVC/UI/Mecha_Icons/Icon_Lilith_v0</iconPath>
+	<displayPriority>-1080</displayPriority>
+	<combatPowerFactor>5.0</combatPowerFactor>
+	<canGenerateAsCombatant>false</canGenerateAsCombatant>
+	<factionlessGenerationWeight>0</factionlessGenerationWeight>
+	<genes>
+        <li>WVC_Shapeshift_Deathless</li>
+        <li>DiseaseFree</li>
+        <li>WVC_RepairSkin</li>
+        <li>WVC_SelfdevourStomach</li>
+        <li>WVC_FleshmassImmunity</li>
+        <li>WVC_ReimplanterThrallMaker</li>
+        <li>WVC_Chimera</li>
+        <li>Yoesph_Blacklight_Consume</li>
+        <!-- <li>WVC_Chimera_Corpseharvest</li> -->
+        <li>WVC_Archiver</li>
+        <li>Yoesph_Blacklight_Disguise</li>
+        <li>WVC_Archiver_AutoResearch</li>
+        <li>WVC_Archiver_MindsConnection</li>
+        <!-- <li>WVC_Archiver_Integrator</li> -->
+        <li>WVC_Archiver_Skills</li>
+        <li>WVC_Chimera_ArchiverCopy</li>
+        <li>WVC_BleedStopper</li>
+        <li>WVC_NaturalAgeless</li>
+        <li>WVC_GeneticStability</li>
+        <li>WVC_Neversleep</li>
+        <li>Balanced_Capacity_Boost_Tier_6</li>
+        <li>WVC_MechaAI_Base</li>
+	</genes>
+  </XenotypeDef>
+
+</Defs>
